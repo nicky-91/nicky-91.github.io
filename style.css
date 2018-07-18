@@ -116,3 +116,15 @@ footer {
     padding-top: 15px;
     box-shadow: 2px 2px 2px #888888;
 }
+
+.submit input {
+        width: 60px;
+        height: 20px;
+        background-color: blue;
+        text-align: center;
+        color: white;
+        box-shadow: 2px 2px 1px gray;
+        -moz-box-shadow: 2px 2px 1px gray;
+        -webkit-box-shadow: 2px 2px 1px gray;
+        font-weight: bold;
+    }
