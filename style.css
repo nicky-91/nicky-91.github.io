@@ -128,3 +128,9 @@ footer {
         -webkit-box-shadow: 2px 2px 1px gray;
         font-weight: bold;
     }
+
+.field input:hover, .location input:hover, .submit input:hover, textarea:hover {
+        box-shadow: 2px 2px 4px gray;
+        -moz-box-shadow: 2px 2px 4px gray;
+        -webkit-box-shadow: 2px 2px 4px gray;
+    }
