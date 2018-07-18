@@ -88,14 +88,14 @@ header {
     width: 400px;
     margin-bottom: 50px;
     margin-top:10px;
-    box-shadow: 2px 2px 2px #888888;
+   
 }
 
 #centerDiv {
     width: 80%;
     padding: 10px;
     margin: 20px
-    box-shadow: 2px 2px 2px #888888;
+    
 }
 
 #centerDiv img {
@@ -110,7 +110,7 @@ footer {
     text-align: right;
     padding-right: 20px;
     padding-top: 15px;
-    box-shadow: 2px 2px 2px #888888;
+    
 }
 
 .submit input {
@@ -119,9 +119,6 @@ footer {
         background-color: blue;
         text-align: center;
         color: white;
-        box-shadow: 2px 2px 1px gray;
-        -moz-box-shadow: 2px 2px 1px gray;
-        -webkit-box-shadow: 2px 2px 1px gray;
         font-weight: bold;
     }
 
