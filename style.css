@@ -1,5 +1,7 @@
 body {
-    background-color: khaki;
+    background-image: url(sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo {
@@ -134,3 +136,4 @@ footer {
         -moz-box-shadow: 2px 2px 4px gray;
         -webkit-box-shadow: 2px 2px 4px gray;
     }
+
