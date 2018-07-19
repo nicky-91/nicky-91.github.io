@@ -44,7 +44,7 @@
               <p class="location">
                   
                   <select name="location">
-                      <option>Choose your location</option>
+                      <option>Choose your location...</option>
                       <option>Kisumu</option>
                       <option>Kakamega</option>
                       <option>Kaimosi</option>
@@ -56,6 +56,19 @@
                       <option>Makueni</option>
                       <option>Runda</option>
                       <option>Brightlihgt</option>
+                  </select>
+              </p>
+              
+              <p class="age">
+                  <select name="age">
+                      <option>Choose your Age...</option>
+                      <option>15-18</option>
+                      <option>19-29</option>
+                      <option>30-39</option>
+                      <option>40-49</option>
+                      <option>50-59</option>
+                      <option>60-69</option>
+                      <option>70-></option>
                   </select>
               </p>
               
@@ -114,6 +127,16 @@
     }
     
     .location select {
+        width: 200px;
+        padding: 10px;
+        color: #666;
+        font-size: 15px;
+        box-shadow: 2px 2px 1px gray;
+        -moz-box-shadow: 2px 2px 1px gray;
+        -webkit-box-shadow: 2px 2px 1px gray;
+    }
+    
+    .age {
         width: 200px;
         padding: 10px;
         color: #666;
