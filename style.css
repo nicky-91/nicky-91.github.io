@@ -63,7 +63,7 @@ header {
 }
 
 .nav_menu li a:hover{
-     background-color: blueviolet;
+     /*background-color: blueviolet;*/
     -webkit-transform: scale(2,2);
     -ms-transform:scale(2,2);
     transform: (2,2);
