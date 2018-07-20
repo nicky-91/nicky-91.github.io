@@ -152,3 +152,35 @@ textarea {
         -moz-box-shadow: 2px 2px 1px gray;
         -webkit-box-shadow: 2px 2px 1px gray;
     }
+
+@keyframes myMove {
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes myMove {
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+@-moz-keyframes myMove {
+    0% {left: 0px;}
+    25% {left: 225px;}
+    50% {left: 450px;}
+    75% {left: 225px;}
+    100% {left: 0px;}
+}
+
+#welcomeDiv h1 {
+    position: relative;
+    
+    animation: myMove 5s infinite;
+    -webkit-animation: myMove 5s infinite;
+    -moz-animation: myMove 5s infinite;
+}
