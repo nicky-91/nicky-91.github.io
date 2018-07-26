@@ -1,7 +1,8 @@
 body {
-    background-image: url(sun.jpg);
+   <!-- background-image: url(sun.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: auto;-->
+    background-color: ghostwhite;
 }
 
 body, html {
