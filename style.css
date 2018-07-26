@@ -110,11 +110,11 @@ header {
 
 footer {
     height: 50px;
-    color: darkblue;
+    color: black;
     text-align: right;
     padding-right: 20px;
     padding-top: 15px;
-    background-color: mintcream;
+    <!--background-color: mintcream;-->
 }
 
 .submit input {
