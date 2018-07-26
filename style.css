@@ -177,7 +177,7 @@ textarea {
     50% {left: 450px;}
     75% {left: 225px;}
     100% {left: 0px;}
-}-->
+}
 
 #welcomeDiv h1 {
     position: relative;
@@ -185,7 +185,7 @@ textarea {
     animation: myMove 5s infinite;
     -webkit-animation: myMove 5s infinite;
     -moz-animation: myMove 5s infinite;
-}
+}-->
 
 @keyframes fadeIn {from {opacity: 0;} to {opacity: 1;} }
 @-webkit-keyframes fadeIn {from {opacity: 0;} to {opacity: 1;} }
