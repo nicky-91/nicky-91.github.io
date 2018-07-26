@@ -155,7 +155,7 @@ textarea {
         -webkit-box-shadow: 2px 2px 1px gray;
     }
 
-@keyframes myMove {
+<!--@keyframes myMove {
     0% {left: 0px;}
     25% {left: 225px;}
     50% {left: 450px;}
@@ -177,7 +177,7 @@ textarea {
     50% {left: 450px;}
     75% {left: 225px;}
     100% {left: 0px;}
-}
+}-->
 
 #welcomeDiv h1 {
     position: relative;
