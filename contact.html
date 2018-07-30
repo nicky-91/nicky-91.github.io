@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <meta charset="UTF-8">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Contact Us</title>
+    <meta name="author" content="">-->
+    <title>Starter Template for Bootstrap 3.3.5</title>
     <link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -19,54 +22,49 @@
 
 <body>
     
-      <div class="container">
-      <header>
-          
-          <ul class="nav_menu">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="register.html">Register Here</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-          <div class="clear"></div>
-      </header>
-          <form id="contact_form" name="contact_form" method="post" action="PostEmail.php">
-              
-              <fieldset class="fade-in">
-                  <legend><h2>Contact Us</h2></legend>
-                  
-                  <table>
-                      <tr>
-                          <td><label for="Name">Name</label></td>
-                          <td><input type="text" name="Name" id="Name" placeholder="Enter Name..." autofocus="autofocus" /></td>
-                      </tr>
-                      
-                      <tr>
-                          <td><label for="Email">Email</label></td>
-                          <td><input type="Email" name="Email" placeholder="Enter Email Address..." /></td>
-                      </tr>
-                      
-                      <tr>
-                          <td><label for="Message">Message</label></td>
-                          <td><textarea name="Message" id="Message" cols="45" rows="5" placeholder="Enter Your Message..."></textarea></td>
-                      
-                      </tr>
-                      
-                      <tr>
-                          <td></td>
-                          <td><input type="reset" name="Reset" id="Reset" value="Reset" />
-                          <input type="submit" name="Send" id="Send" value="Submit" /></td>
-                          
-                      </tr>
-                  
-                  
-                  </table>
-              
-              </fieldset>
-              
-          </form>
-      </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-inverse navbar-fixed">
+        <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Contact Us</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+        </div>
+	</nav>	
+		<!--<div class="page-header header-center">
+            <h1>Sign in</h1>
+        </div>-->
+        
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="name" class="control-label col-md-4">Your Name</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="name" class="control-label col-md-4">Your Email</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+			<div class="form-group">
+                <label for="messages" class="control-label col-md-4">Messages</label>
+                <div class="col-md-4">
+                    <textarea class="form-control" rows="5"></textarea>
+                </div>
+            </div>
+			<div class="form-group">
+				<div class="col-md-offset-4 col-md-4">
+					<button type="reset" class="btn btn-success" value="reset">Reset</button>
+					<button class="btn btn-success">Click to submit</button>
+				</div>
+			</div>
+            
+        </form>
+        
 </body>
 </html>
