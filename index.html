@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <!--<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Nixon Ochieng">-->
-    <title>My First Mobile Responsive Website with Bootstrap!</title>
-    <!--<link rel="shortcut icon" href="">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap-theme.min.css">-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <meta name="author" content="">-->
+    <title>Starter Template for Bootstrap 3.3.5</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -20,56 +22,44 @@
 
 <body>
     
-    <div class="container-fluid">
-      <!--<header>
-          <ul class="nav_menu fade-in">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="register.html">Register Here</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-          <div class="clear"></div>
-      </header>-->
-        
-        <ul class="nav nav-tabs nav-justified">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-      
-        <div class="page-header">
-            <h1>Sign in</h1>
+    <nav class="navbar navbar-inverse navbar-fixed">
+        <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Sign in</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
         </div>
+	</nav>	
+		<!--<div class="page-header header-center">
+            <h1>Sign in</h1>
+        </div>-->
         
         <form class="form-horizontal">
             <div class="form-group">
-                <label for="name" class="control-label col-md-4">Your Name</label>
-                <div class="col-md-6">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="form-group">
                 <label for="name" class="control-label col-md-4">Your Email</label>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <input type="text" class="form-control">
                 </div>
             </div>
             <div class="form-group">
                 <label for="name" class="control-label col-md-4">Your Password</label>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <input type="text" class="form-control">
                 </div>
             </div>
+			<div class="form-group">
+				<div class="col-md-offset-4 col-md-4">
+					<button class="btn btn-success">Click to submit</button>
+				</div>
+			</div>
             
         </form>
-            
-    
-      
-      <footer>Copyright Mine</footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
         
-    </div>
+                       
     
 </body>
 </html>
