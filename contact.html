@@ -13,6 +13,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <style>
+        section {
+            width: 100vw;
+            height: 100vh;
+            padding: 100px;
+        }
+        
+        .cl_white {
+            color: white;
+        }
+        
+    </style>
 
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -20,7 +33,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     
     <nav class="navbar navbar-inverse navbar-fixed">
         <div class="container">
@@ -38,6 +51,7 @@
             <h1>Sign in</h1>
         </div>-->
         
+    <section id="home" style="background: url(nick2.jpg); background-size: 100% 100%;" class="cl_white">
         <form class="form-horizontal">
             <div class="form-group">
                 <label for="name" class="control-label col-md-4">Your Name</label>
@@ -65,6 +79,7 @@
 			</div>
             
         </form>
+    </section>
         
 </body>
 </html>
