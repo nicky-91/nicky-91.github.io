@@ -8,25 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">-->
-    <title>Home</title>
+    <title>Photos</title>
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     
-    <style>
-        section {
-            width: 100vw;
-            height: 100vh;
-            padding: 20px;
-        }
-        
-        .cl_white {
-            color: white;
-        }
-        
-    </style>
-
+    
     <!--[if IE]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -34,10 +22,11 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
+    
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">Welcome</a>
+				<a class="navbar-brand" href="#">Photo Gallery</a>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.html">Home</a></li>
@@ -50,33 +39,43 @@
 		<!--<div class="page-header header-center">
             <h1>Sign in</h1>
         </div>-->
-    
-    <section id="home" style="background: url(fire.jpg); background-size: 100% 100%;" class="cl_white">
-        <div class="page-header">
-            <h1 class="text-center">Sign in</h1>
-        </div>
-        <form class="form-horizontal">
-            <div class="form-group">
-                <label for="name" class="control-label col-md-4">Your Email</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="form-group">
-                <label for="name" class="control-label col-md-4">Your Password</label>
-                <div class="col-md-4">
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-			<div class="form-group">
-				<div class="col-md-offset-4 col-md-4">
-					<button class="btn btn-success">Click to submit</button>
-				</div>
-			</div>
-            
-        </form>
         
-    </section>               
-    
+    <div class="container">
+        <div class="carousel slide" data-ride="carousel" id="slider">
+            <ol class="carousel-indicators">
+                <li data-target="#slider" data-slide-to="0" class="active"></li>
+                <li data-target="#slider" data-slide-to="1"></li>
+                <li data-target="#slider" data-slide-to="2"></li>
+                <li data-target="#slider" data-slide-to="3"></li>
+                <li data-target="#slider" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/dog.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/lap.jpg"
+                </div>
+                <div class="item">
+                    <img src="images/laptop.jpeg">
+                </div>
+                <div class="item">
+                    <img src="images/sun.jpg">
+                </div>
+                <div class="item">
+                    <img src="images/wee.jpg">
+                </div>
+            </div>
+                
+                <a href="#slider" data-slide="prev" class="left carousel-control">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a> 
+                <a href="#slider" data-slide="next" class="right carousel-control">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a> 
+                
+        </div>
+    </div>
+        
 </body>
 </html>
