@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!--<style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>-->
 
     <!--[if IE]>
@@ -22,7 +23,21 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Welcome</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Photo</a></li>
+			</ul>
+        </div>
+	</nav>	
     
 
         <div class="carousel slide" id="myslider" data-ride="carousel">
