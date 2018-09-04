@@ -172,7 +172,7 @@ hr.light-100 {
 .form-group:last-of-type::before {
     content: "\f023";
 }
-button {
+/*--button {
     width: 40%;
     margin 5px 0 25px;
 }
@@ -190,7 +190,7 @@ button {
 }
 .svg-inline--fa {
     font-size: 20px;
-    margin-right: 7px;
+    margin-right: 7px;--*/
 }
 .forgot {
     padding: 5px 0 25px;
