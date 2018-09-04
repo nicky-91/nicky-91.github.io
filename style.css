@@ -46,6 +46,7 @@ html, body {
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
+    text-align: center;
 }
 .padding {
     padding-bottom: 2rem;
