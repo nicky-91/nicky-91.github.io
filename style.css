@@ -46,7 +46,6 @@ html, body {
 .jumbotron {
     padding: 1rem;
     border-radius: 0;
-    text-align: center;
 }
 .padding {
     padding-bottom: 2rem;
@@ -160,7 +159,7 @@ hr.light-100 {
     border-radius: 5px;
     border: 0;
     font-size: 18px;
-    padding-left: 62px;
+    padding-left: 54px;
 }
 .form-group::before {
     content: "\f007";
@@ -173,7 +172,7 @@ hr.light-100 {
 .form-group:last-of-type::before {
     content: "\f023";
 }
-/*--button {
+button {
     width: 40%;
     margin 5px 0 25px;
 }
@@ -191,7 +190,7 @@ hr.light-100 {
 }
 .svg-inline--fa {
     font-size: 20px;
-    margin-right: 7px;--*/
+    margin-right: 7px;
 }
 .forgot {
     padding: 5px 0 25px;
