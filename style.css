@@ -133,7 +133,7 @@ hr.light-100 {
 /*-- This is for the Login Page--*/
 .main-section {
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 200px;
     padding: 0;
 }
 .modal-content {
@@ -142,7 +142,7 @@ hr.light-100 {
     padding: 0 18px;
     box-shadow: 0px 0px 3px #848484;
 }
-.user-img {
+/*.user-img {
     margin-top: -50px;
     margin-bottom: 35px;
 }
@@ -151,12 +151,12 @@ hr.light-100 {
     width: 100px;
     border-radius: 5px;
     box-shadow: 0px 0px 3px #848484;
-}
+}*/
 .form-group {
     margin-bottom: 25px;
 }
 .form-group input {
-    height: 42px;
+    height: 50px;
     border-radius: 5px;
     border: 0;
     font-size: 18px;
